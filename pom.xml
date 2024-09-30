@@ -21,7 +21,7 @@
   <parent>
     <groupId>io.takari</groupId>
     <artifactId>takari</artifactId>
-    <version>56</version>
+    <version>62</version>
     <relativePath />
   </parent>
 
@@ -133,7 +133,7 @@
     <tagNameFormat>formatter-m2e-configurator-@{project.version}</tagNameFormat>
 
     <takari.release.gpg.skip>true</takari.release.gpg.skip>
-    <tychoVersion>4.0.8</tychoVersion>
+    <tychoVersion>4.0.9</tychoVersion>
   </properties>
 
   <repositories>
@@ -160,7 +160,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-plugin-plugin</artifactId>
-          <version>3.14.0</version>
+          <version>3.15.0</version>
           <executions>
             <execution>
               <id>default-descriptor</id>
@@ -220,7 +220,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-gpg-plugin</artifactId>
-          <version>3.2.5</version>
+          <version>3.2.7</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -243,7 +243,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.4.0</version>
+          <version>3.5.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -257,7 +257,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>3.8.0</version>
+          <version>3.10.0</version>
           <configuration>
             <legacyMode>true</legacyMode>
           </configuration>
@@ -302,12 +302,12 @@
         <plugin>
           <groupId>com.mycila</groupId>
           <artifactId>license-maven-plugin</artifactId>
-          <version>4.5</version>
+          <version>4.6</version>
           <dependencies>
             <dependency>
               <groupId>com.mycila</groupId>
               <artifactId>license-maven-plugin-git</artifactId>
-              <version>4.5</version>
+              <version>4.6</version>
             </dependency>
           </dependencies>
         </plugin>
