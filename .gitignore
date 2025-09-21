@@ -33,6 +33,7 @@ nb-configuration.xml
 .idea/
 *.ipr
 *.iws
+.mvn/wrapper/maven-wrapper.jar
 
 #Ignore the test tree file from tycho
 net.revelc.code.formatter.test/tree.txt
